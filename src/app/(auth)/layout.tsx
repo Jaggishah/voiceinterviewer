@@ -5,7 +5,7 @@ interface Props {
 }
 const layout = ({children}:Props) => {
   return (
-    <div>
+    <div className='auth-layout'>
       {children}
     </div>
   )
